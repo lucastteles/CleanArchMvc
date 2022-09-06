@@ -25,6 +25,11 @@ namespace CleanArchMvc.Domain.Entities
 
         }
 
+        public void Update(string name)
+        {
+            ValidateDomain(name);
+        }
+
         public ICollection<Product> Products { get; set; }
 
 
