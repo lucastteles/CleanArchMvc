@@ -38,3 +38,4 @@ namespace CleanArchMvc.Application.Products.Handlers
             }
         }
     }
+}
