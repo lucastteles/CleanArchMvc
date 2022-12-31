@@ -41,6 +41,7 @@ namespace CleanArchMvc.API.Controllers
             }
 
             return Ok(products);
+
         }
 
         [HttpPost]
